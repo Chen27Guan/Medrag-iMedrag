@@ -1,3 +1,17 @@
+# 参考项目地址：
+https://github.com/Teddy-XiongGZ/MedRAG?tab=readme-ov-file
+# 脚本
+## medrag
+1. 检索知识 scripts2/custom_retrieve_new.py
+2. 格式转换 scripts/merge_jsonl_with_retrieved.py
+## imedrag
+1. 生成问答对并检索知识 scripts2/custom_retrieve_followup.py
+2. 格式转换 scripts/merge_followup.py
+## same steps
+3. 调用模型生成回复 scripts/generate_doctor2.py
+4. 转换为评测格式 scripts/convert_to_result.py
+
+# 以下是参考项目介绍
 # MedRAG Toolkit
 
 `MedRAG` a systematic toolkit for Retrieval-Augmented Generation (RAG) on medical question answering (QA). `MedRAG` is used to implement various RAG systems for the benchmark study on our [`MIRAGE`](https://github.com/Teddy-XiongGZ/MIRAGE) (Medical Information Retrieval-Augmented Generation Evaluation).
